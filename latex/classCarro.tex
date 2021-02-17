@@ -1,0 +1,94 @@
+\hypertarget{classCarro}{}\section{Carro Class Reference}
+\label{classCarro}\index{Carro@{Carro}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCarro_aaa935af175e59e77323cfdb1696fabd8}{Carro} (string marca, int volumen\+Del\+Motor, string tipo\+De\+Frenos)
+\item 
+virtual \hyperlink{classCarro_a7e31c4a7fba7088be8cef8b499c128bd}{$\sim$\+Carro} ()
+\item 
+virtual void \hyperlink{classCarro_a3b5c25a896658008e366b19023d36e89}{conducir} (double tiempo, double velocidad)
+\item 
+virtual void \hyperlink{classCarro_a0e55d35b86532d04dbbb56087fbd2079}{frenar} ()
+\item 
+virtual double \hyperlink{classCarro_a063538e705b4f696a13e147b52ded211}{cuenta\+Kilometros} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCarro_a2ee525f9baf2d860ead24b04dcc67e88}\label{classCarro_a2ee525f9baf2d860ead24b04dcc67e88}} 
+string {\bfseries marca}
+\item 
+\mbox{\Hypertarget{classCarro_a36063622b77d9283a76e94757115b541}\label{classCarro_a36063622b77d9283a76e94757115b541}} 
+int {\bfseries volumen\+Del\+Motor}
+\item 
+\mbox{\Hypertarget{classCarro_ac2efb0916962ca3d448d4915250ef50d}\label{classCarro_ac2efb0916962ca3d448d4915250ef50d}} 
+string {\bfseries tipo\+De\+Frenos}
+\item 
+\mbox{\Hypertarget{classCarro_ab32b053ecd3967d8dafd050cc79d385a}\label{classCarro_ab32b053ecd3967d8dafd050cc79d385a}} 
+double {\bfseries distancia\+Recorrida}
+\item 
+\mbox{\Hypertarget{classCarro_ad29bc08f69c5f2d3581431c829181db8}\label{classCarro_ad29bc08f69c5f2d3581431c829181db8}} 
+double {\bfseries ultima\+Velocidad}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCarro_aaa935af175e59e77323cfdb1696fabd8}\label{classCarro_aaa935af175e59e77323cfdb1696fabd8}} 
+\index{Carro@{Carro}!Carro@{Carro}}
+\index{Carro@{Carro}!Carro@{Carro}}
+\subsubsection{\texorpdfstring{Carro()}{Carro()}}
+{\footnotesize\ttfamily Carro\+::\+Carro (\begin{DoxyParamCaption}\item[{string}]{marca,  }\item[{int}]{volumen\+Del\+Motor,  }\item[{string}]{tipo\+De\+Frenos }\end{DoxyParamCaption})}
+
+Construye un carro con unas ciertas características 
+\begin{DoxyParams}{Parameters}
+{\em la} & marca del carro \\
+\hline
+{\em el} & volumen del motor en centímetros cúbicos \\
+\hline
+{\em el} & tipo de frenos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCarro_a7e31c4a7fba7088be8cef8b499c128bd}\label{classCarro_a7e31c4a7fba7088be8cef8b499c128bd}} 
+\index{Carro@{Carro}!````~Carro@{$\sim$\+Carro}}
+\index{````~Carro@{$\sim$\+Carro}!Carro@{Carro}}
+\subsubsection{\texorpdfstring{$\sim$\+Carro()}{~Carro()}}
+{\footnotesize\ttfamily Carro\+::$\sim$\+Carro (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+No hace nada 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classCarro_a3b5c25a896658008e366b19023d36e89}\label{classCarro_a3b5c25a896658008e366b19023d36e89}} 
+\index{Carro@{Carro}!conducir@{conducir}}
+\index{conducir@{conducir}!Carro@{Carro}}
+\subsubsection{\texorpdfstring{conducir()}{conducir()}}
+{\footnotesize\ttfamily void Carro\+::conducir (\begin{DoxyParamCaption}\item[{double}]{tiempo,  }\item[{double}]{velocidad }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Conduce el carro durante un cierto tiempo a una cierta velocidad 
+\begin{DoxyParams}{Parameters}
+{\em el} & tiempo en minutos \\
+\hline
+{\em la} & velocidad en km/h \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCarro_a063538e705b4f696a13e147b52ded211}\label{classCarro_a063538e705b4f696a13e147b52ded211}} 
+\index{Carro@{Carro}!cuenta\+Kilometros@{cuenta\+Kilometros}}
+\index{cuenta\+Kilometros@{cuenta\+Kilometros}!Carro@{Carro}}
+\subsubsection{\texorpdfstring{cuenta\+Kilometros()}{cuentaKilometros()}}
+{\footnotesize\ttfamily double Carro\+::cuenta\+Kilometros (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Muestra la distancia recorrida \begin{DoxyReturn}{Returns}
+la distancia recorrida 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCarro_a0e55d35b86532d04dbbb56087fbd2079}\label{classCarro_a0e55d35b86532d04dbbb56087fbd2079}} 
+\index{Carro@{Carro}!frenar@{frenar}}
+\index{frenar@{frenar}!Carro@{Carro}}
+\subsubsection{\texorpdfstring{frenar()}{frenar()}}
+{\footnotesize\ttfamily void Carro\+::frenar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Frena el carro. Ello implica que va a recorrer una distancia adicional, que depende de la velocidad que lleve. Con frenos normales equivale a otros 10 segundos de recorrido. Con frenos A\+BS equivale a 2 segundos de recorrido. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Carro.\+h\item 
+Carro.\+cpp\end{DoxyCompactItemize}

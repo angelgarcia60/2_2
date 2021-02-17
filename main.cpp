@@ -6,7 +6,7 @@
   Versión: 0.1
   Licencia: GPL
 */
-
+// Hice un cambio
 /**
   Utilidad para la asignatura: uso de objetos dinámicos (manejo dinámico de memoria) con los operadores new y delete
   
